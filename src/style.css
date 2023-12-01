@@ -28,7 +28,16 @@ body {
 }
 
 .input {
-  margin: 0px 0 50px 0;
+  margin: 0px 0 15px 0;
+  line-height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.botao {
+  line-height: 30px;
+  width: 100px;
 }
 
 .itens {
@@ -38,4 +47,8 @@ body {
   background: #8BE8E5;
   color: #A084E8;
   padding: 15px;
+}
+
+.remove {
+  text-decoration: line-through;
 }

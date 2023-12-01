@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/style.css">
   <title>Lista de Tarefas</title>
 </head>
+
 <body>
   <header>
     <h1 class="title">Lista de Tarefas</h1>
   </header>
   <main class="list">
-    <div class="input">
+    <div class="">
       <input class="input" type="text" placeholder="Adicionar tarefa">
-      <button onclick="capturarInput()">Adicionar</button>
+      <button class="botao" onclick="capturarInput()">Adicionar</button>
     </div>
-   <div>
-    <ul class="itens">
-      <li>Item 1</li>
-      <li>Item 2</li>
-    </ul>
-   </div>
+    <div>
+      <ul class="itens" id="addItens" onclick="marcarItem(event)">
+      </ul>
+    </div>
   </main>
   <script src="./src/script.js"></script>
 </body>
+
 </html>
