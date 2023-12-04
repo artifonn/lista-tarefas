@@ -15,10 +15,10 @@
   <main class="list-area">
     <div class="list">
       <input class="input" type="text" placeholder="Adicionar tarefa">
-      <button class="botao" onclick="capturarInput()">Adicionar</button>
+      <button class="botao" onclick="handleClick()">Adicionar</button>
     </div>
     <div class="itens-area">
-      <ul class="itens" id="addItens" onclick="marcarItem(event)">
+      <ul class="itens" id="addItens" onclick="toggleItemMark(event)">
       </ul>
       <button class="botao-remover">Remover Tarefas Concluidas</button>
     </div>
