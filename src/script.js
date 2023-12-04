@@ -23,4 +23,11 @@ const toggleItemMark = (event) => {
   if(event.target.tagName === 'LI') {
     event.target.classList.toggle('remove');
   }
-} 
+}
+
+const removeElementsByClass = () => {
+  let itens = document.querySelectorAll('.remove');
+  itens.forEach(item => {
+    item.remove();    
+  });
+}
